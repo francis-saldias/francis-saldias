@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @francis-saldias
-- 👀 I’m interested in learnign to analyze data
+- 👀 I’m interested data analysis, practice different coding languages, and expand my knowledge
 - 😄 Pronouns: he/him
 
 <!---
