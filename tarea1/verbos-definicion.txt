@@ -1,0 +1,321 @@
+absolve:absolver, eximir, dispensar, exculpar, exonerar
+absorb:absorber
+abstract:abstraer, extraer
+accustom:acostumbrarse
+achieve:lograr, realizar
+act:actuar
+allow:dejar permitir
+arrest:arrestar, coger, detener, prender
+bake:hornear, enhornar
+bar:barrar
+beat around the bush:andarse por las ramas, darle vueltas al asunto
+behave:comportarse
+betray:traicionar
+bewilder:desconcertar, confundir
+blindfold:vendar
+bombard:bombardear
+box:[1] encajar, [2, 3] boxear
+brake:frenar
+brute:bruto, bestia
+budget:presuponer
+bullshit:huevear, decir tonterías
+butter:untar mantequilla
+cancel:cancelar
+carpet:alfombrar
+catalogue:catalogar
+catch:atrapar
+celebrate:celebrar
+cement:cementar
+centralize:centralizar
+change:cambiar, modificar, mutar
+chat:platicar, charlar; [Internet] chatear
+checkmate:dar jaque mate, dar mate
+choose:elegir, escoger
+circulate:circular
+civilise:civilizar
+claim:hacer una reclamación, reclamar, sostener
+coagulate:coagular, cuajar
+coerce:coaccionar
+comment:comentar
+complain:quejarse
+compost:compost
+confuse:confundir
+consider:considerar
+corrode:corroer, corroerse
+covet:codiciar, envidiar
+crack:resquebrajar
+crawl:arrastrarse (doesn't this mean to drag?)
+crumple:[transitive] arrugar, [intransitive] arrugarse
+cultivate:cultivar
+curry:congraciarse con
+damage:daño
+deal with:tramitar
+decide:decidir
+declare:declarar
+decline:declinar
+deliver:liberar, librar, dar a luz, parir, entregar
+demonstrate:evidenciar
+destroy:destruir
+detoxify:desintoxicar
+develop:desarrollar
+diminish:disminuir
+disarm:desarmar
+discern:discernir
+disparage:desacreditar
+dodge:esquivar
+domesticate:domesticar
+double:doblar
+dress:vestirse
+dump:echar
+ejaculate:eyacular, acabar
+emerge:aflorar
+encourage:recomendar, motivar
+endeavor:procurar
+endow:dotar
+enjoy:gozar
+entertain:divertir
+erase:borrar
+escape:fugarse
+evade:burlar, eludir
+exacerbate:exacerbar, agravar, avivar
+exalt:exaltar
+excavate:excavar
+excite:excitar
+exit:salir
+extract:extraer, sacar
+favor:favorecer
+feel:sentir, sentirse
+flee:huir, fugarse
+flirt:coquetear, galantear, seducir
+flop:tirarse
+forage:forrajear
+force:forzar
+foster:promover, incentivar
+found:fundar, instaurar
+frown:fruncir
+fuck off:irse a la mierda, joderse, pudrirse, irse al diablo, irse al infierno
+gallicize:galicizar, traducir en francés
+garrison:apostar
+gear:engranar
+get ahead:ir adelante
+get around:sortear
+glow:brillar
+go away:irse, marcharse
+go from strength to strength:crecer en fortaleza
+go out:irse, salir, apagarse
+graduate:graduar
+grate:rallar
+graze:pastar
+grease:engrasar, lubricar
+grind:moler
+grow:crecer
+grumble:refunfuñar
+guillotine:guillotinar
+gussy up:arreglarse, enbellesar
+handcuff:esposar
+hang:colgar, caer
+hang up:colgar
+heal:curar
+Hellenize:helenizar
+hesitate:dudar
+highlight:resaltar, enfatizar
+hire:alquilar, contratar, emplear
+hoist:enarbolar
+hypertrophy:hipertrofiarse
+ignite:encender
+illustrate:ilustrar
+infer:argüir, inferir
+inflate:inflar
+inform:delatar, enterar, impregnar, informar, reportar
+inhabit:habitar
+injure:lastimar
+inspire:inspirar
+interfere:impedir
+interpose:intercalado
+invent:inventar
+isolate:aislar
+job:trabajar
+join:juntar
+jousting:justa
+jump:saltar
+keep up appearances:mantener las apariencias
+kick out:echar
+knit:tejer, tricotar
+knock:golpear
+launch:lanzar
+leave:quedar, sobrar
+leave home:irse de casa
+let go:soltar
+let know:informar, hacer saber
+lodge:alojar, albergar
+look:mirar
+look at:mirar
+loot:saquear
+magic:embrujar
+make known:anunciar
+manage:manejar
+maze:desconcertar
+mechanize:mecanice
+meditate:meditar
+Mirandize:mirandizar, explicar los derechos
+mislead:engañar
+mistake:confundir
+mock:imitar, burlar
+mutate:mutar
+nettle:picar, irritar, provocar
+notice:reparar en, fijarse
+nullify:anular
+occupy:ocupar
+offend:ofender
+offer:ofrecer, oferta, ofrecimiento, presentar
+oppose:oponer
+optimize:optimizar
+overflow:rebosar, desbordar
+overwhelm:abrumar, agobiar
+ovulate:ovular
+palm:agarrar con la palma, mover con la palma
+parasailing:parapente {m}
+part:hacer una raya
+patine:patinar
+patrol:patrullar
+permaban:bloquear permanentemente, [verb] bloquear permanentemente {n}
+pick:coger
+pick on:hostigar
+pick up:pepenar [Central America, Mexico]
+pirate:piratear
+plunge:zambullir
+polish:pulir
+pour:verter, escanciar
+practice:practicar, entrenar, ejercer
+prescribe:recetar
+prevail:prevalecer
+prime:primo {m}
+profit:beneficiarse
+program:programar
+promote:promover
+pronounce:pronunciar
+punish:castigar
+putrefy:pudrirse
+qualify:[to modify, limit, restrict or moderate something] matizar
+quarrel:disputar, discutir, pelearse, quejarse
+quarterback:mariscal {m}
+quaver:temblar
+quote:citar
+raffle:rifar
+rafting:descenso de ríos
+raise:alzar
+reaffirm:reafirmar
+reason:razonar
+recline:reclinarse
+recognise:reconocer
+recognize:reconocer
+redeem:redimir
+redirect:redirigir
+reduce:mermar, reducir, disminuir, rebajar
+reflect:reflejar [transitive], reflexionar [intransitive]
+relax:soltar, relajar
+relinquish:renunciar a, abandonar, soltar
+remain:restar, sobrar
+reply:responder
+request:demandar, pedir, solicitar, solicitud
+rescue:rescatar
+research:investigar
+resend:reenviar
+reserve:reservar
+ribbit:croar
+rise:subir
+risk:arriesgar, poner en riesgo
+roar:bramar
+roast:asar, rostir
+sand:lijar
+savor:saborear
+scatter:esparcir
+scold:regañar, retar, reñir
+scribble:garabatear
+scrounge:gorrear, gorronear, pepenar
+secrete:secretear
+set:cuajarse, fraguar
+set aside:apartar (a un lado)
+shade:sombrear
+shake:agitar, sacudir
+sheath:forrar
+sheathe:forrar
+shine:brillar
+shit:cagar
+shoot oneself in the foot:tirar piedras al propio tejado
+shun:marginar
+sigh:suspirar
+signify:señalar, suponer, representar, significar
+sign up:inscribir (se)
+situate:situar
+skate:patinar
+smuggle:contrabandear, pasar de contrabando {m}
+snap:chasquear
+sniff:husmear, sorber
+soak:empapar, remojar
+sound:sondear
+spin:girar
+spread:extender, desplegar
+sprinkle:rociar, salpicar, espolvorear
+sprout:brotar
+stain:manchar
+stake:estacar
+stand by:hacer una pausa, en reserva
+startle:sobresaltarse, asustarse, alarmarse
+stay:hospedarse
+steal:hurtar, robar
+steer:conducir
+stick:seguir de cerca
+stiffen:atiesarse, endurecerse
+sting:picar
+stink:apestar, oler a podrido
+stir:revolver
+stop:parar, pararse, inmovilizarse, dejar de [+ infinitive]
+stream:fluir, correr
+study:estudiar
+stuff:rellenar
+stun:dejar sin sentido
+submit:presentar, someter
+surround:rodear, cercar
+survey:informe, estudio de mercado
+swarm:enjambrar
+swing:oscilar
+table:posponer
+tamp:apisonar
+tease:embromar
+tell:decir, contar
+test:examinar, probar
+thank:agradecer
+think aloud:pensar en voz alta
+throw:arrojar
+toggle:alternar
+torpedo:torpedear
+trample:pisotear
+transcend:trascender
+trap:atrapar
+treble:triple
+trek:jornada {f}
+trend:tender
+trespass:violar, traspasar
+turn:doblar
+tweeze:pinzar
+uncomment:descomentar
+underplay:restarse, minimizarse
+underscore:subrayar
+unhinge:desquiciar
+unveil:desvelar, descubrir
+urge:urgir
+vacate:dejar vacante
+vary:variar
+verify:constatar
+vilify:acusar
+wait for:esperar
+wake:despertarse, despertar
+wean:desahijar
+whip:azotar
+whistle:chiflar, silbar
+wink:guiñar, picar el ojo [colloquial]
+withdraw:retirar
+work:trabajar, funcionar
+worship:adorar, venerar, alabar
+zoom:zumbar ; enfocar con zoom
