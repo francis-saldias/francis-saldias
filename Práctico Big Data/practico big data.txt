@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct  8 20:40:06 2024
+
+@author: francis
+"""
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from statsmodels.formula.api import ols
+
+# Cargar el dataset
+file_path = r"C:\Users\franc\Downloads\MentalHealthSurvey new.csv"
+data = pd.read_csv(file_path)
+
+# Ver que se haya cargado adecuadamente
+print(data.head())
+
+# chatgpt me dijo que debía asegurar que residential_status sea categórica, 
+# para ello hacemos que sea de dicho tipo
+data['residential_status'] = data['residential_status'].astype('category')
+
+# Ver que la info se visualice correctamente
+print(data.info())
+
+# Transformar a binaria la residential_status, fijando on-campus = 0 y off-campus = 1
+data['residential_status_numeric'] = data['residential_status'].apply(lambda x: 1 if x == 'Off-Campus' else 0)
+
+# Regresión lineal para la variable depression
+model_depression = ols('depression ~ residential_status_numeric', data=data).fit()
+print(model_depression.summary())
+
+# Gráfico de barras para el nivel de depresión según el estado residencial
+sns.barplot(x='residential_status', y='depression', data=data, ci=None)
+plt.title("Nivel de depresión según estado residencial")
+plt.show()
+
+# Regresión lineal para la variable anxiety
+model_anxiety = ols('anxiety ~ residential_status_numeric', data=data).fit()
+print(model_anxiety.summary())
+
+# Gráfico de barras para el nivel de ansiedad por estado residencial
+sns.barplot(x='residential_status', y='anxiety', data=data, ci=None)
+plt.title("Nivel de ansiedad según estado residencial")
+plt.show()
+
+# Regresión lineal para la variable isolation
+model_isolation = ols('isolation ~ residential_status_numeric', data=data).fit()
+print(model_isolation.summary())
+
+# Gráfico de barras para el nivel de aislamiento por estado residencial
+sns.barplot(x='residential_status', y='isolation', data=data, ci=None)
+plt.title("Nivel de aislamiento según estado residencial")
+plt.show()
+#%%
+# Haremos un análisis de regresión múltiple para incluir otras variables que
+# podrían resultar en una significancia estadística
+# Las nuevas variables son: gender, academic_workload y financial_concerns 
+
+# Cómo género tiene valores male y female, tenemos que hacerla variable binaria
+# para lo cual fijamos male =  0 y female = 1
+data['gender_numeric'] = data['gender'].apply(lambda x: 1 if x == 'Male' else 0)
+
+# Regresión múltiple para depression
+model_depression = ols('depression ~ residential_status_numeric + gender_numeric + academic_workload + financial_concerns', data=data).fit()
+print(model_depression.summary())
+
+# Regresión múltiple para anxiety
+model_anxiety = ols('anxiety ~ residential_status_numeric + gender_numeric + academic_workload + financial_concerns', data=data).fit()
+print(model_anxiety.summary())
+
+# Regresión múltiple para isolation
+model_isolation = ols('isolation ~ residential_status_numeric + gender_numeric + academic_workload + financial_concerns', data=data).fit()
+print(model_isolation.summary())
+
+# En base a los resultados de los modelos de regresión múltiple
+# haré los gráficos según las variables que resultaron significativas
+    
+# Gráfico de barras: Carga académica y depresión
+sns.barplot(x='academic_workload', y='depression', data=data)
+plt.title("Nivel de Depresión según Carga Académica")
+plt.xlabel("Academic Workload")
+plt.ylabel("Depression Level")
+plt.show()
+
+# Gráfico de barras: Preocupaciones financieras y depresión
+sns.barplot(x='financial_concerns', y='depression', data=data)
+plt.title("Nivel de Depresión según Preocupaciones Financieras")
+plt.xlabel("Financial Concerns")
+plt.ylabel("Depression Level")
+plt.show()
+
+# Gráfico de barras: Carga académica y ansiedad
+sns.barplot(x='academic_workload', y='anxiety', data=data)
+plt.title("Nivel de Ansiedad según Carga Académica")
+plt.xlabel("Academic Workload")
+plt.ylabel("Anxiety Level")
+plt.show()
+
+# Gráfico de barras: Preocupaciones financieras y ansiedad
+sns.barplot(x='financial_concerns', y='anxiety', data=data)
+plt.title("Nivel de Ansiedad según Preocupaciones Financieras")
+plt.xlabel("Financial Concerns")
+plt.ylabel("Anxiety Level")
+plt.show()
+
+# Gráfico de barras: Preocupaciones financieras y aislamiento
+sns.barplot(x='financial_concerns', y='isolation', data=data)
+plt.title("Nivel de Aislamiento según Preocupaciones Financieras")
+plt.xlabel("Financial Concerns")
+plt.ylabel("Isolation Level")
+plt.show()
+
+# Por último, para hacer un análisis rápido y visual haré un mapa de calor 
+correlation_matrix = data[['depression', 'anxiety', 'isolation', 'academic_workload', 'financial_concerns']].corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+plt.title("Correlation Heatmap")
+plt.show()
+
+
