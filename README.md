@@ -1,5 +1,7 @@
 - 👋 Hi, I’m @francis-saldias
-- 👀 I’m interested in data analysis, practice different code languages, and expand my knowledge
+- 🎓 Graduate in Information Systems and Management Control at Universidad de Chile
+- 👀 Passionate about data analysis for its impact on decision-making, to better understand processes and business, adapt them effectively, and drive continuous improvement across diverse industries
+- 📫 Contact: fsaldias@fen.uchile.cl or francis.saldiass@gmail.com
 - 😄 Pronouns: he/him
 
 <!---
